@@ -50,7 +50,9 @@
     <Compile Include="ICustomerService.cs" />
     <Compile Include="IEmailService.cs" />
     <Compile Include="IEmployeeService.cs" />
+    <Compile Include="ILocalBranchService.cs" />
     <Compile Include="IOriginxDataService.cs" />
+    <Compile Include="LocalBranchClass.cs" />
     <Compile Include="OriginxDataService.cs" />
     <Compile Include="OriginXLinq.designer.cs">
       <AutoGen>True</AutoGen>

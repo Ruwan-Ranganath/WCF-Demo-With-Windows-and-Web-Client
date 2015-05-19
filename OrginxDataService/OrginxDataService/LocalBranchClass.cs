@@ -9,27 +9,30 @@ namespace OrginxDataService
    public class LocalBranchClass
     {
         private string countrybranchcod;
+        private string branchdesc;
+        private string branchcity;
+        private string branchadmin;
 
         public string Countrybranchcod
         {
             get { return countrybranchcod; }
             set { countrybranchcod = value; }
         }
-        private string branchcity;
+        
 
         public string Branchcity
         {
             get { return branchcity; }
             set { branchcity = value; }
         }
-        private string branchadmin;
+       
 
         public string Branchadmin
         {
             get { return branchadmin; }
             set { branchadmin = value; }
         }
-        private string branchdesc;
+       
 
         public string Branchdesc
         {

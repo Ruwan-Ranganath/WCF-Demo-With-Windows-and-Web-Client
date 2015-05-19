@@ -12,6 +12,6 @@ namespace OrginxDataService
     public interface ILocalBranchService
     {
         [OperationContract]
-        void DoWork();
+        void AddLocalBranch(LocalBranchClass LocalBranch);
     }
 }

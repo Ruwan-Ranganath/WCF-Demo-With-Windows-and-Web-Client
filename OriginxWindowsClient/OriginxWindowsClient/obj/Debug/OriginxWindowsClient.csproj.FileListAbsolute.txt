@@ -39,3 +39,31 @@ F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindows
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.baml
 F:\GitHub\WCF Demo With Windows & Web Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.g.cs
 C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\OriginxWindowsClient.exe.config
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\OriginxWindowsClient.exe
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\OriginxWindowsClient.pdb
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.dll
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.SimpleChildWindow.dll
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.xml
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\bin\Debug\MahApps.Metro.SimpleChildWindow.xml
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.csprojResolveAssemblyReference.cache
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.baml
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\InsertCustomer.baml
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\EmployeeForm\AddEmployee.baml
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\LocalBranches\LocalOfficeManage.baml
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\MainWindow.baml
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\Resources\Icons.baml
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\App.baml
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\CustomerManage.g.cs
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\CustomerForm\InsertCustomer.g.cs
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\EmployeeForm\AddEmployee.g.cs
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\LocalBranches\LocalOfficeManage.g.cs
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\MainWindow.g.cs
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\Resources\Icons.g.cs
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\App.g.cs
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient_MarkupCompile.cache
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.g.resources
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.Properties.Resources.resources
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.csproj.GenerateResource.Cache
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.exe
+C:\Users\Belpage\Documents\GitHub\WCF-Demo-With-Windows-and-Web-Client\OriginxWindowsClient\OriginxWindowsClient\obj\Debug\OriginxWindowsClient.pdb
