@@ -1,0 +1,8 @@
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\bin\Release\OriginxDataHost.exe.config
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\bin\Release\OriginxDataHost.exe
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\bin\Release\OriginxDataHost.pdb
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\bin\Release\OrginxDataService.dll
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\bin\Release\OrginxDataService.pdb
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Release\OriginxDataHost.csprojResolveAssemblyReference.cache
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Release\OriginxDataHost.exe
+F:\GitHub\WCF Demo With Windows & Web Client\OrginxDataService\OriginxDataHost\obj\Release\OriginxDataHost.pdb

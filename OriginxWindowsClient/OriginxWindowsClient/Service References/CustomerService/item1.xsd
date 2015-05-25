@@ -2,17 +2,34 @@
 <xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/OrginxDataService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/OrginxDataService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexType name="EmployeeClass">
     <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BasicSalary1" type="xs:int" />
+      <xs:element minOccurs="0" name="Birthday1" type="xs:int" />
+      <xs:element minOccurs="0" name="Bonus" type="xs:int" />
+      <xs:element minOccurs="0" name="Department" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Emp_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Hiredate" type="xs:int" />
+      <xs:element minOccurs="0" name="Mobile1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phoneno1" type="xs:int" />
+      <xs:element minOccurs="0" name="Phoneno2" type="xs:int" />
+      <xs:element minOccurs="0" name="Position" type="xs:int" />
+      <xs:element minOccurs="0" name="Sex" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="User_level" type="xs:int" />
+      <xs:element minOccurs="0" name="Userimage" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="EmployeeClass" nillable="true" type="tns:EmployeeClass" />
   <xs:complexType name="CustomerClass">
     <xs:sequence>
+      <xs:element minOccurs="0" name="Additionalinfo" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Clientlogo" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phoneno1" type="xs:int" />
+      <xs:element minOccurs="0" name="Phoneno2" type="xs:int" />
       <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>

@@ -13,5 +13,7 @@ namespace OrginxDataService
     {
         [OperationContract]
         void AddWorldWideBranch(WorldWideBranchClass WorldWideBranch);
+
+
     }
 }

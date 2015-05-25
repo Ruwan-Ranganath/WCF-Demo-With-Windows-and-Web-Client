@@ -23,13 +23,52 @@ namespace OriginxWindowsClient.CustomerService {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string AddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int BasicSalary1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Birthday1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int BonusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DepartmentField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int Emp_IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int HiredateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string Mobile1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string PasswordField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Phoneno1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Phoneno2Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int PositionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string SexField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int User_levelField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UserimageField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string UsernameField;
@@ -45,6 +84,71 @@ namespace OriginxWindowsClient.CustomerService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Address {
+            get {
+                return this.AddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.AddressField, value) != true)) {
+                    this.AddressField = value;
+                    this.RaisePropertyChanged("Address");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int BasicSalary1 {
+            get {
+                return this.BasicSalary1Field;
+            }
+            set {
+                if ((this.BasicSalary1Field.Equals(value) != true)) {
+                    this.BasicSalary1Field = value;
+                    this.RaisePropertyChanged("BasicSalary1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Birthday1 {
+            get {
+                return this.Birthday1Field;
+            }
+            set {
+                if ((this.Birthday1Field.Equals(value) != true)) {
+                    this.Birthday1Field = value;
+                    this.RaisePropertyChanged("Birthday1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Bonus {
+            get {
+                return this.BonusField;
+            }
+            set {
+                if ((this.BonusField.Equals(value) != true)) {
+                    this.BonusField = value;
+                    this.RaisePropertyChanged("Bonus");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Department {
+            get {
+                return this.DepartmentField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DepartmentField, value) != true)) {
+                    this.DepartmentField = value;
+                    this.RaisePropertyChanged("Department");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public int Emp_ID {
             get {
                 return this.Emp_IDField;
@@ -53,6 +157,45 @@ namespace OriginxWindowsClient.CustomerService {
                 if ((this.Emp_IDField.Equals(value) != true)) {
                     this.Emp_IDField = value;
                     this.RaisePropertyChanged("Emp_ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Hiredate {
+            get {
+                return this.HiredateField;
+            }
+            set {
+                if ((this.HiredateField.Equals(value) != true)) {
+                    this.HiredateField = value;
+                    this.RaisePropertyChanged("Hiredate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Mobile1 {
+            get {
+                return this.Mobile1Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.Mobile1Field, value) != true)) {
+                    this.Mobile1Field = value;
+                    this.RaisePropertyChanged("Mobile1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
                 }
             }
         }
@@ -71,6 +214,58 @@ namespace OriginxWindowsClient.CustomerService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Phoneno1 {
+            get {
+                return this.Phoneno1Field;
+            }
+            set {
+                if ((this.Phoneno1Field.Equals(value) != true)) {
+                    this.Phoneno1Field = value;
+                    this.RaisePropertyChanged("Phoneno1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Phoneno2 {
+            get {
+                return this.Phoneno2Field;
+            }
+            set {
+                if ((this.Phoneno2Field.Equals(value) != true)) {
+                    this.Phoneno2Field = value;
+                    this.RaisePropertyChanged("Phoneno2");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Position {
+            get {
+                return this.PositionField;
+            }
+            set {
+                if ((this.PositionField.Equals(value) != true)) {
+                    this.PositionField = value;
+                    this.RaisePropertyChanged("Position");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Sex {
+            get {
+                return this.SexField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.SexField, value) != true)) {
+                    this.SexField = value;
+                    this.RaisePropertyChanged("Sex");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public int User_level {
             get {
                 return this.User_levelField;
@@ -79,6 +274,19 @@ namespace OriginxWindowsClient.CustomerService {
                 if ((this.User_levelField.Equals(value) != true)) {
                     this.User_levelField = value;
                     this.RaisePropertyChanged("User_level");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Userimage {
+            get {
+                return this.UserimageField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UserimageField, value) != true)) {
+                    this.UserimageField = value;
+                    this.RaisePropertyChanged("Userimage");
                 }
             }
         }
@@ -116,10 +324,22 @@ namespace OriginxWindowsClient.CustomerService {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string AdditionalinfoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string AddressField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ClientlogoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string NameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Phoneno1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Phoneno2Field;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string TypeField;
@@ -131,6 +351,19 @@ namespace OriginxWindowsClient.CustomerService {
             }
             set {
                 this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Additionalinfo {
+            get {
+                return this.AdditionalinfoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.AdditionalinfoField, value) != true)) {
+                    this.AdditionalinfoField = value;
+                    this.RaisePropertyChanged("Additionalinfo");
+                }
             }
         }
         
@@ -148,6 +381,19 @@ namespace OriginxWindowsClient.CustomerService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Clientlogo {
+            get {
+                return this.ClientlogoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ClientlogoField, value) != true)) {
+                    this.ClientlogoField = value;
+                    this.RaisePropertyChanged("Clientlogo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Name {
             get {
                 return this.NameField;
@@ -156,6 +402,32 @@ namespace OriginxWindowsClient.CustomerService {
                 if ((object.ReferenceEquals(this.NameField, value) != true)) {
                     this.NameField = value;
                     this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Phoneno1 {
+            get {
+                return this.Phoneno1Field;
+            }
+            set {
+                if ((this.Phoneno1Field.Equals(value) != true)) {
+                    this.Phoneno1Field = value;
+                    this.RaisePropertyChanged("Phoneno1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Phoneno2 {
+            get {
+                return this.Phoneno2Field;
+            }
+            set {
+                if ((this.Phoneno2Field.Equals(value) != true)) {
+                    this.Phoneno2Field = value;
+                    this.RaisePropertyChanged("Phoneno2");
                 }
             }
         }
@@ -286,6 +558,24 @@ namespace OriginxWindowsClient.CustomerService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/AddCustomer", ReplyAction="http://tempuri.org/ICustomerService/AddCustomerResponse")]
         System.Threading.Tasks.Task AddCustomerAsync(OriginxWindowsClient.CustomerService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/DeleteCustomer", ReplyAction="http://tempuri.org/ICustomerService/DeleteCustomerResponse")]
+        void DeleteCustomer(OriginxWindowsClient.CustomerService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/DeleteCustomer", ReplyAction="http://tempuri.org/ICustomerService/DeleteCustomerResponse")]
+        System.Threading.Tasks.Task DeleteCustomerAsync(OriginxWindowsClient.CustomerService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/UpdateCustomer", ReplyAction="http://tempuri.org/ICustomerService/UpdateCustomerResponse")]
+        void UpdateCustomer(OriginxWindowsClient.CustomerService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/UpdateCustomer", ReplyAction="http://tempuri.org/ICustomerService/UpdateCustomerResponse")]
+        System.Threading.Tasks.Task UpdateCustomerAsync(OriginxWindowsClient.CustomerService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/SearchCustomer", ReplyAction="http://tempuri.org/ICustomerService/SearchCustomerResponse")]
+        void SearchCustomer(OriginxWindowsClient.CustomerService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/SearchCustomer", ReplyAction="http://tempuri.org/ICustomerService/SearchCustomerResponse")]
+        System.Threading.Tasks.Task SearchCustomerAsync(OriginxWindowsClient.CustomerService.CustomerClass Customer);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -321,6 +611,77 @@ namespace OriginxWindowsClient.CustomerService {
         
         public System.Threading.Tasks.Task AddCustomerAsync(OriginxWindowsClient.CustomerService.CustomerClass Customer) {
             return base.Channel.AddCustomerAsync(Customer);
+        }
+        
+        public void DeleteCustomer(OriginxWindowsClient.CustomerService.CustomerClass Customer) {
+            base.Channel.DeleteCustomer(Customer);
+        }
+        
+        public System.Threading.Tasks.Task DeleteCustomerAsync(OriginxWindowsClient.CustomerService.CustomerClass Customer) {
+            return base.Channel.DeleteCustomerAsync(Customer);
+        }
+        
+        public void UpdateCustomer(OriginxWindowsClient.CustomerService.CustomerClass Customer) {
+            base.Channel.UpdateCustomer(Customer);
+        }
+        
+        public System.Threading.Tasks.Task UpdateCustomerAsync(OriginxWindowsClient.CustomerService.CustomerClass Customer) {
+            return base.Channel.UpdateCustomerAsync(Customer);
+        }
+        
+        public void SearchCustomer(OriginxWindowsClient.CustomerService.CustomerClass Customer) {
+            base.Channel.SearchCustomer(Customer);
+        }
+        
+        public System.Threading.Tasks.Task SearchCustomerAsync(OriginxWindowsClient.CustomerService.CustomerClass Customer) {
+            return base.Channel.SearchCustomerAsync(Customer);
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="CustomerService.IEmailService")]
+    public interface IEmailService {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmailService/SendMail", ReplyAction="http://tempuri.org/IEmailService/SendMailResponse")]
+        bool SendMail(string emailTo, string subject, string body, bool isBodyHtml);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmailService/SendMail", ReplyAction="http://tempuri.org/IEmailService/SendMailResponse")]
+        System.Threading.Tasks.Task<bool> SendMailAsync(string emailTo, string subject, string body, bool isBodyHtml);
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public interface IEmailServiceChannel : OriginxWindowsClient.CustomerService.IEmailService, System.ServiceModel.IClientChannel {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class EmailServiceClient : System.ServiceModel.ClientBase<OriginxWindowsClient.CustomerService.IEmailService>, OriginxWindowsClient.CustomerService.IEmailService {
+        
+        public EmailServiceClient() {
+        }
+        
+        public EmailServiceClient(string endpointConfigurationName) : 
+                base(endpointConfigurationName) {
+        }
+        
+        public EmailServiceClient(string endpointConfigurationName, string remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress) {
+        }
+        
+        public EmailServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress) {
+        }
+        
+        public EmailServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(binding, remoteAddress) {
+        }
+        
+        public bool SendMail(string emailTo, string subject, string body, bool isBodyHtml) {
+            return base.Channel.SendMail(emailTo, subject, body, isBodyHtml);
+        }
+        
+        public System.Threading.Tasks.Task<bool> SendMailAsync(string emailTo, string subject, string body, bool isBodyHtml) {
+            return base.Channel.SendMailAsync(emailTo, subject, body, isBodyHtml);
         }
     }
 }

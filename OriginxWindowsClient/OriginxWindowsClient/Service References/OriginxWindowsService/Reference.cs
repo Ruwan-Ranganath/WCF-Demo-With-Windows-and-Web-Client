@@ -23,13 +23,52 @@ namespace OriginxWindowsClient.OriginxWindowsService {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string AddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int BasicSalary1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Birthday1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int BonusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DepartmentField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int Emp_IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int HiredateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string Mobile1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string PasswordField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Phoneno1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Phoneno2Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int PositionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string SexField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int User_levelField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UserimageField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string UsernameField;
@@ -45,6 +84,71 @@ namespace OriginxWindowsClient.OriginxWindowsService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Address {
+            get {
+                return this.AddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.AddressField, value) != true)) {
+                    this.AddressField = value;
+                    this.RaisePropertyChanged("Address");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int BasicSalary1 {
+            get {
+                return this.BasicSalary1Field;
+            }
+            set {
+                if ((this.BasicSalary1Field.Equals(value) != true)) {
+                    this.BasicSalary1Field = value;
+                    this.RaisePropertyChanged("BasicSalary1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int Birthday1 {
+            get {
+                return this.Birthday1Field;
+            }
+            set {
+                if ((this.Birthday1Field.Equals(value) != true)) {
+                    this.Birthday1Field = value;
+                    this.RaisePropertyChanged("Birthday1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int Bonus {
+            get {
+                return this.BonusField;
+            }
+            set {
+                if ((this.BonusField.Equals(value) != true)) {
+                    this.BonusField = value;
+                    this.RaisePropertyChanged("Bonus");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Department {
+            get {
+                return this.DepartmentField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DepartmentField, value) != true)) {
+                    this.DepartmentField = value;
+                    this.RaisePropertyChanged("Department");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         internal int Emp_ID {
             get {
                 return this.Emp_IDField;
@@ -53,6 +157,45 @@ namespace OriginxWindowsClient.OriginxWindowsService {
                 if ((this.Emp_IDField.Equals(value) != true)) {
                     this.Emp_IDField = value;
                     this.RaisePropertyChanged("Emp_ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int Hiredate {
+            get {
+                return this.HiredateField;
+            }
+            set {
+                if ((this.HiredateField.Equals(value) != true)) {
+                    this.HiredateField = value;
+                    this.RaisePropertyChanged("Hiredate");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Mobile1 {
+            get {
+                return this.Mobile1Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.Mobile1Field, value) != true)) {
+                    this.Mobile1Field = value;
+                    this.RaisePropertyChanged("Mobile1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
                 }
             }
         }
@@ -71,6 +214,58 @@ namespace OriginxWindowsClient.OriginxWindowsService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int Phoneno1 {
+            get {
+                return this.Phoneno1Field;
+            }
+            set {
+                if ((this.Phoneno1Field.Equals(value) != true)) {
+                    this.Phoneno1Field = value;
+                    this.RaisePropertyChanged("Phoneno1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int Phoneno2 {
+            get {
+                return this.Phoneno2Field;
+            }
+            set {
+                if ((this.Phoneno2Field.Equals(value) != true)) {
+                    this.Phoneno2Field = value;
+                    this.RaisePropertyChanged("Phoneno2");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int Position {
+            get {
+                return this.PositionField;
+            }
+            set {
+                if ((this.PositionField.Equals(value) != true)) {
+                    this.PositionField = value;
+                    this.RaisePropertyChanged("Position");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Sex {
+            get {
+                return this.SexField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.SexField, value) != true)) {
+                    this.SexField = value;
+                    this.RaisePropertyChanged("Sex");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         internal int User_level {
             get {
                 return this.User_levelField;
@@ -84,6 +279,19 @@ namespace OriginxWindowsClient.OriginxWindowsService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Userimage {
+            get {
+                return this.UserimageField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UserimageField, value) != true)) {
+                    this.UserimageField = value;
+                    this.RaisePropertyChanged("Userimage");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         internal string Username {
             get {
                 return this.UsernameField;
@@ -92,6 +300,147 @@ namespace OriginxWindowsClient.OriginxWindowsService {
                 if ((object.ReferenceEquals(this.UsernameField, value) != true)) {
                     this.UsernameField = value;
                     this.RaisePropertyChanged("Username");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CustomerClass", Namespace="http://schemas.datacontract.org/2004/07/OrginxDataService")]
+    [System.SerializableAttribute()]
+    internal partial class CustomerClass : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string AdditionalinfoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string AddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ClientlogoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Phoneno1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int Phoneno2Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TypeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Additionalinfo {
+            get {
+                return this.AdditionalinfoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.AdditionalinfoField, value) != true)) {
+                    this.AdditionalinfoField = value;
+                    this.RaisePropertyChanged("Additionalinfo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Address {
+            get {
+                return this.AddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.AddressField, value) != true)) {
+                    this.AddressField = value;
+                    this.RaisePropertyChanged("Address");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Clientlogo {
+            get {
+                return this.ClientlogoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ClientlogoField, value) != true)) {
+                    this.ClientlogoField = value;
+                    this.RaisePropertyChanged("Clientlogo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int Phoneno1 {
+            get {
+                return this.Phoneno1Field;
+            }
+            set {
+                if ((this.Phoneno1Field.Equals(value) != true)) {
+                    this.Phoneno1Field = value;
+                    this.RaisePropertyChanged("Phoneno1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal int Phoneno2 {
+            get {
+                return this.Phoneno2Field;
+            }
+            set {
+                if ((this.Phoneno2Field.Equals(value) != true)) {
+                    this.Phoneno2Field = value;
+                    this.RaisePropertyChanged("Phoneno2");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        internal string Type {
+            get {
+                return this.TypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TypeField, value) != true)) {
+                    this.TypeField = value;
+                    this.RaisePropertyChanged("Type");
                 }
             }
         }
@@ -197,6 +546,142 @@ namespace OriginxWindowsClient.OriginxWindowsService {
         
         public System.Threading.Tasks.Task addEmployeeAsync(OriginxWindowsClient.OriginxWindowsService.EmployeeClass emp) {
             return base.Channel.addEmployeeAsync(emp);
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="OriginxWindowsService.ICustomerService")]
+    internal interface ICustomerService {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/AddCustomer", ReplyAction="http://tempuri.org/ICustomerService/AddCustomerResponse")]
+        void AddCustomer(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/AddCustomer", ReplyAction="http://tempuri.org/ICustomerService/AddCustomerResponse")]
+        System.Threading.Tasks.Task AddCustomerAsync(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/DeleteCustomer", ReplyAction="http://tempuri.org/ICustomerService/DeleteCustomerResponse")]
+        void DeleteCustomer(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/DeleteCustomer", ReplyAction="http://tempuri.org/ICustomerService/DeleteCustomerResponse")]
+        System.Threading.Tasks.Task DeleteCustomerAsync(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/UpdateCustomer", ReplyAction="http://tempuri.org/ICustomerService/UpdateCustomerResponse")]
+        void UpdateCustomer(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/UpdateCustomer", ReplyAction="http://tempuri.org/ICustomerService/UpdateCustomerResponse")]
+        System.Threading.Tasks.Task UpdateCustomerAsync(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/SearchCustomer", ReplyAction="http://tempuri.org/ICustomerService/SearchCustomerResponse")]
+        void SearchCustomer(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomerService/SearchCustomer", ReplyAction="http://tempuri.org/ICustomerService/SearchCustomerResponse")]
+        System.Threading.Tasks.Task SearchCustomerAsync(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer);
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    internal interface ICustomerServiceChannel : OriginxWindowsClient.OriginxWindowsService.ICustomerService, System.ServiceModel.IClientChannel {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    internal partial class CustomerServiceClient : System.ServiceModel.ClientBase<OriginxWindowsClient.OriginxWindowsService.ICustomerService>, OriginxWindowsClient.OriginxWindowsService.ICustomerService {
+        
+        public CustomerServiceClient() {
+        }
+        
+        public CustomerServiceClient(string endpointConfigurationName) : 
+                base(endpointConfigurationName) {
+        }
+        
+        public CustomerServiceClient(string endpointConfigurationName, string remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress) {
+        }
+        
+        public CustomerServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress) {
+        }
+        
+        public CustomerServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(binding, remoteAddress) {
+        }
+        
+        public void AddCustomer(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer) {
+            base.Channel.AddCustomer(Customer);
+        }
+        
+        public System.Threading.Tasks.Task AddCustomerAsync(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer) {
+            return base.Channel.AddCustomerAsync(Customer);
+        }
+        
+        public void DeleteCustomer(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer) {
+            base.Channel.DeleteCustomer(Customer);
+        }
+        
+        public System.Threading.Tasks.Task DeleteCustomerAsync(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer) {
+            return base.Channel.DeleteCustomerAsync(Customer);
+        }
+        
+        public void UpdateCustomer(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer) {
+            base.Channel.UpdateCustomer(Customer);
+        }
+        
+        public System.Threading.Tasks.Task UpdateCustomerAsync(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer) {
+            return base.Channel.UpdateCustomerAsync(Customer);
+        }
+        
+        public void SearchCustomer(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer) {
+            base.Channel.SearchCustomer(Customer);
+        }
+        
+        public System.Threading.Tasks.Task SearchCustomerAsync(OriginxWindowsClient.OriginxWindowsService.CustomerClass Customer) {
+            return base.Channel.SearchCustomerAsync(Customer);
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="OriginxWindowsService.IEmailService")]
+    internal interface IEmailService {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmailService/SendMail", ReplyAction="http://tempuri.org/IEmailService/SendMailResponse")]
+        bool SendMail(string emailTo, string subject, string body, bool isBodyHtml);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmailService/SendMail", ReplyAction="http://tempuri.org/IEmailService/SendMailResponse")]
+        System.Threading.Tasks.Task<bool> SendMailAsync(string emailTo, string subject, string body, bool isBodyHtml);
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    internal interface IEmailServiceChannel : OriginxWindowsClient.OriginxWindowsService.IEmailService, System.ServiceModel.IClientChannel {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    internal partial class EmailServiceClient : System.ServiceModel.ClientBase<OriginxWindowsClient.OriginxWindowsService.IEmailService>, OriginxWindowsClient.OriginxWindowsService.IEmailService {
+        
+        public EmailServiceClient() {
+        }
+        
+        public EmailServiceClient(string endpointConfigurationName) : 
+                base(endpointConfigurationName) {
+        }
+        
+        public EmailServiceClient(string endpointConfigurationName, string remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress) {
+        }
+        
+        public EmailServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress) {
+        }
+        
+        public EmailServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(binding, remoteAddress) {
+        }
+        
+        public bool SendMail(string emailTo, string subject, string body, bool isBodyHtml) {
+            return base.Channel.SendMail(emailTo, subject, body, isBodyHtml);
+        }
+        
+        public System.Threading.Tasks.Task<bool> SendMailAsync(string emailTo, string subject, string body, bool isBodyHtml) {
+            return base.Channel.SendMailAsync(emailTo, subject, body, isBodyHtml);
         }
     }
 }

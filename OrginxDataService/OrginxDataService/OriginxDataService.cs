@@ -12,7 +12,7 @@ using System.Net.Mail;
 namespace OrginxDataService
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "OriginxDataService" in both code and config file together.
-    public class OriginxDataService : IOriginxDataService,IEmployeeService,ICustomerService,IEmailService,IWorlWideBranchService
+    public class OriginxDataService : IOriginxDataService,IEmployeeService,ICustomerService,IEmailService,IWorlWideBranchService,ILocalBranchService,IItemDeliveryService,ILoginService
     {
 
        
@@ -21,58 +21,7 @@ namespace OrginxDataService
         {
             return "Hello " + name;
         }
-
-        // Add New Employee With Stored Proceedure and Linq (OriginxLinq.dbml) 
-        public void addEmployee(EmployeeClass emp)
-        {
-            
-            try
-            {
-                var AddEmployee = new OriginXLinqDataContext();
-                AddEmployee.addemployees(emp.Username, emp.Password, emp.User_level);
-            }
-            catch (Exception ex)
-            {
-              
-            }
-
-            
-            //string CS = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
-            //using (SqlConnection con = new SqlConnection(CS))
-            //{
-            //    SqlCommand cmd = new SqlCommand("addemployees", con);
-            //    cmd.CommandType = CommandType.StoredProcedure;
-
-
-            //    SqlParameter parameterUserName = new SqlParameter()
-            //    {
-            //        ParameterName = "@username",
-            //        Value = emp.Username
-            //    };
-            //    cmd.Parameters.Add(parameterUserName);
-
-
-
-            //    SqlParameter parameterPassword = new SqlParameter()
-            //    {
-            //        ParameterName = "@password",
-            //        Value = emp.Password
-            //    };
-            //    cmd.Parameters.Add(parameterPassword);
-
-
-            //    SqlParameter parameterUserLevel = new SqlParameter()
-            //    {
-            //        ParameterName = "@user_level",
-            //        Value = emp.User_level
-            //    };
-            //    cmd.Parameters.Add(parameterUserLevel);
-
-            //    con.Open();
-            //    cmd.ExecuteNonQuery();
-
-            //}
-        }
+                
 
         // Add new Customer with stored proceedure and linq 
         public void AddCustomer(CustomerClass Customer)
@@ -116,8 +65,7 @@ namespace OrginxDataService
 
 
 
-        public bool SendMail(string emailTo, string subject, string body, bool
- isBodyHtml)
+        public bool SendMail(string emailTo, string subject, string body, bool isBodyHtml)
         {
             if (string.IsNullOrEmpty(emailTo))
             {
@@ -147,7 +95,108 @@ namespace OrginxDataService
 
         public void AddWorldWideBranch(WorldWideBranchClass WorldWideBranch)
         {
-            
+            try
+            {
+                var addworldbranch = new OriginXLinqDataContext();
+                addworldbranch.addWorldOffice(
+                    WorldWideBranch.Officename,
+                    WorldWideBranch.Officecountry,
+                    WorldWideBranch.Officeadmin,
+                    WorldWideBranch.Officedesc
+                    );
+                
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                Console.Read();
+            }
+        }
+
+        public void addlocalbranch(LocalBranchClass LB)
+        {
+            try
+            {
+                var localbranch = new OriginXLinqDataContext();
+                localbranch.addCountryBranch(
+                    LB.Countrybranchcod,
+                    LB.Branchadmin,
+                    LB.Branchadmin,
+                    LB.Branchdesc
+                    );
+                
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                Console.Read();
+            }
+        }
+
+        public void addEmployee(EmployeeClass emp)
+        {
+            var addemps = new OriginXLinqDataContext();
+            addemps.newemployees(
+                        emp.Name,
+                        emp.Nic,
+                        emp.Mobile1,
+                        emp.Address,
+                        emp.Position,
+                        emp.BasicSalary1,
+                        emp.Bonus,
+                        emp.Userimage,   
+                        emp.Hiredate,
+                        emp.Department,  
+                        emp.Birthday1,
+                        emp.Sex,
+                        emp.Phoneno1,
+                        emp.Phoneno2,
+                        emp.Username,
+                        emp.Password,
+                        emp.User_level
+                );
+
+        }
+
+        public void addDelivery(ItemDeliveryClass delivery)
+        {
+            var adddelivery = new OriginXLinqDataContext();
+            adddelivery.adddelivery(
+                delivery.DeliveryId,
+                delivery.SendClietnId,
+                delivery.RecieveClientId,
+                delivery.StartDate,
+                delivery.SendDate,
+                delivery.EndDate,
+                delivery.LocalBranch,
+                delivery.WorldBranch,
+                delivery.SalesPerson,
+                delivery.DeliveryPerson
+                );
+
+        }
+
+        public bool login(string username, string password)
+        {
+
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = "Data Source=RANGANATH;Initial Catalog=OriginXDB;Integrated Security=True";
+            con.Open(); 
+
+             SqlCommand cmd = new SqlCommand("select username,password from employee where username='" + username + "'and password='" +  password + "'", con);  
+
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            if (dt.Rows.Count > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            con.Close(); 
         }
     }
 }

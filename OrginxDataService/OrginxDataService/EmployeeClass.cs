@@ -9,21 +9,23 @@ namespace OrginxDataService
     public class EmployeeClass
     {
        private int emp_ID;
-       private string username;
-       private string password;
-       private int user_level;
+ 
        private string name;
+       private int nic;      
        private string address;
-       private string Mobile;
-       private int Birthday;
-       private int position;
+       private int Mobile;
+       private DateTime Birthday;
+       private string position;       
        private int BasicSalary;
        private int bonus;
-       private int hiredate;
+       private DateTime hiredate;
        private string department;
        private string sex;
        private int phoneno1;
        private int phoneno2;
+       private string username;
+       private string password;
+       private int user_level;
 
 
 
@@ -39,28 +41,32 @@ namespace OrginxDataService
            get { return address; }
            set { address = value; }
        }
-       
 
-       public string Mobile1
+       public int Nic
+       {
+           get { return nic; }
+           set { nic = value; }
+       }
+
+       public int Mobile1
        {
            get { return Mobile; }
            set { Mobile = value; }
        }
       
 
-       public int Birthday1
+       public DateTime Birthday1
        {
            get { return Birthday; }
            set { Birthday = value; }
        }
-      
 
-       public int Position
+       public string Position
        {
            get { return position; }
            set { position = value; }
        }
-       
+    
 
        public int BasicSalary1
        {
@@ -76,7 +82,7 @@ namespace OrginxDataService
        }
       
 
-       public int Hiredate
+       public DateTime Hiredate
        {
            get { return hiredate; }
            set { hiredate = value; }
